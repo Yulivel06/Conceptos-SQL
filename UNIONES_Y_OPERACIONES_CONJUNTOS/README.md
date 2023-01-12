@@ -4,6 +4,8 @@ Uniones internas en SQL (crecen horizontal)
 
 INNER JOIN: Busca registro en ambas tablas con los mismos valores en el campo clave, id 
 
+![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/inner%20join.png)
+
 SELECT ----- seleccionamos las columnas que queremos ver
 FROM ------- Tabla de la izquiera, seguida de la palabra clave INNER JOIN mas la tabla de la derecha
 Especificamos el campo para que coincidan las tablas, utilizando la palabra clave ON
