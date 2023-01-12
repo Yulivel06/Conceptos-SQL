@@ -1,3 +1,6 @@
+UNIONES Y OPERACION DE CONJUNTOS 
+
+
 Primary key: columna que identifica de manera exclusiva los registros de una columna
 
 Uniones internas en SQL (crecen horizontal)
