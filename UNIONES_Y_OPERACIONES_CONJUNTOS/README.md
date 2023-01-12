@@ -13,8 +13,11 @@ Especificamos el campo para que coincidan las tablas, utilizando la palabra clav
 uniones externas, LEFT-RIGHT- FULL JOIN:
 
 LEFT JOIN conserva todos los registros de la tabla izquierda, así como valroes nulos para los valores de la 
-derecha donde no hay coincidencia en tabla derecha. Los valores id 5 y 6 que no aparecen en la left_table 
-no aparecen en ningun lado. 
+derecha donde no hay coincidencia en tabla derecha. 
+
+![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/left%20join.png)
+
+Los valores id 5 y 6 que no aparecen en la left_table no aparecen en ningun lado. 
 
 RIGHT JOIN (poco usado): se conservan todos los registros de la tabla right_table, se devulven valores nulos para el campo left_value
 en los registros donde no encuentra coincidencia
