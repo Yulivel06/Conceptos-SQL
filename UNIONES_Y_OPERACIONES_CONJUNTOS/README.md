@@ -22,10 +22,19 @@ Los valores id 5 y 6 que no aparecen en la left_table no aparecen en ningun lado
 RIGHT JOIN (poco usado): se conservan todos los registros de la tabla right_table, se devulven valores nulos para el campo left_value
 en los registros donde no encuentra coincidencia
  
-FULL JOIN (Union completa): devuelve todos los Id independiente si existe o no una coincidencia con la tabla que se este uniendo 
+ ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/right%20join.png)
+
+FULL JOIN (Union completa): Devuelve todos los Id independiente si existe o no una coincidencia con la tabla que se este uniendo;
 regresa valores faltantes cuando no encuntra una coincidencia 
 
+ ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/full%20join.png)
+
 Tambien se puede usar FULL OUTER JOIN 
+
+La sintaxis es la siguiente: 
+
+
+ ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/sintaxis%20full%20join.png)
 
 
 Uniones cruzadas (cross join): crean todas las uniones posibles de dos tablas.
