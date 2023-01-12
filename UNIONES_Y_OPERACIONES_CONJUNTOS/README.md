@@ -1,4 +1,4 @@
-UNIONES Y OPERACION DE CONJUNTOS 
+## UNIONES Y OPERACION DE CONJUNTOS 
 
 
 Primary key: columna que identifica de manera exclusiva los registros de una columna
@@ -47,7 +47,6 @@ el resultado de Cross join son las nueve combinaciones del id
 
 La sintaxis es la siguiente: 
 
-
  ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/sintaxis%20cross%20join.png)
 
 No se especifica ON o USING
@@ -59,10 +58,9 @@ Para hacer una consulta con autouniones no existe una sintaxis dedicadas, es dec
 para esto es necesario crear un alias
 el campo vital es establecer los campos de union que usamos para hacer coincidir la tabla con ella misma. 
 
+### OPERACIONES DE CONJUNTOS (UNION, INTERSECT, EXCEPT)
 
-
-
---OPERACIONES DE CONJUNTOS (UNION, INTERSECT, EXCEPT): En lugar de comparar y fusionar tablas al a izquiera y a la derecha, apila los campos uno encima del otro 
+En lugar de comparar y fusionar tablas al a izquiera y a la derecha, apila los campos uno encima del otro 
 
 UNION -UNION ALL
 union: devuelve todos los registros de cada tabla, si dos registros son identicos UNION solo los devuelve una vez.
