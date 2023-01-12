@@ -33,26 +33,34 @@ Tambien se puede usar FULL OUTER JOIN
 
 La sintaxis es la siguiente: 
 
-
  ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/sintaxis%20full%20join.png)
 
 
 Uniones cruzadas (cross join): crean todas las uniones posibles de dos tablas.
 
+ ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/cross%20join.png)
+
 el resultado de Cross join son las nueve combinaciones del id 
+
+La sintaxis es la siguiente: 
+
+
+ ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/sintaxis%20cross%20join.png)
 
 No se especifica ON o USING
 
 Autouniones (SELF JOIN): Una tabla se une consigo misma
+
 Se utiliza para comparar valores de parte de una tabla con otros valores dentro de la misma tabla
 Para hacer una consulta con autouniones no existe una sintaxis dedicadas, es decir no podemos escribir simplemente SELF JOIN
-para esto es necesario crear un alias 
+para esto es necesario crear un alias
 el campo vital es establecer los campos de union que usamos para hacer coincidir la tabla con ella misma. 
 
 
-En lugar de comparar y fusionar tablas al a izquiera y a la derecha, apila los campos uno encima del otro 
 
---OPERACIONES DE CONJUNTOS (UNION, INTERSECT, EXCEPT) (CRECE VERTICALMENTE)
+
+--OPERACIONES DE CONJUNTOS (UNION, INTERSECT, EXCEPT): En lugar de comparar y fusionar tablas al a izquiera y a la derecha, apila los campos uno encima del otro 
+
 UNION -UNION ALL
 union: devuelve todos los registros de cada tabla, si dos registros son identicos UNION solo los devuelve una vez.
 union all: incluye registros duplicados 
