@@ -15,7 +15,7 @@ Especificamos el campo para que coincidan las tablas, utilizando la palabra clav
 
 uniones externas, LEFT-RIGHT- FULL JOIN:
 
-LEFT JOIN conserva todos los registros de la tabla izquierda, así como valroes nulos para los valores de la 
+LEFT JOIN conserva todos los registros de la tabla izquierda, así como valores nulos para los valores de la 
 derecha donde no hay coincidencia en tabla derecha. 
 
 ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/left%20join.png)
@@ -81,5 +81,9 @@ INTERSECT solo devuleve registros comunes una vez, mientras que inner join devol
 INNER JOIN agrega mas columna al conjunto de resultados 
  ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/sintaxis_union_union_all.png)
 
-EXCEPT: Nos permite indentificar los registros que presentes en una tabla, pero no en la otra,
-es decir, conserva solo los registros de la tabla de la izquiera que no esten presenten en la tabla derecha 
+EXCEPT: Nos permite indentificar los registros que presentes en una tabla, pero no en la otra, es decir, conserva solo los registros de la tabla de la izquiera que
+no esten presenten en la tabla derecha.
+
+![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/except.png)
+
+FUENTE: Esta información fue tomada del curso Joining Data in SQL de DataCamp.
