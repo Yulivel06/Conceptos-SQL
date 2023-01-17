@@ -84,6 +84,8 @@ INNER JOIN agrega mas columna al conjunto de resultados
 EXCEPT: Nos permite indentificar los registros que presentes en una tabla, pero no en la otra, es decir, conserva solo los registros de la tabla de la izquiera que
 no esten presenten en la tabla derecha.
 
+EXCEPT tomará como base el primer conjunto de bases de datos, por eso es importante el orden en que coloquemos las tablas.
+
 ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/except.png)
 
 FUENTE: Esta información fue tomada del curso Joining Data in SQL de DataCamp.
