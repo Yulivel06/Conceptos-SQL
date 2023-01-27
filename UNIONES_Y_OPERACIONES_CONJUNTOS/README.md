@@ -22,7 +22,7 @@ derecha donde no hay coincidencia en tabla derecha.
 
 Los valores id 5 y 6 que no aparecen en la left_table no aparecen en ningun lado. 
 
-RIGHT JOIN (poco usado): se conservan todos los registros de la tabla right_table, se devulven valores nulos para el campo left_value
+RIGHT JOIN (poco usado): se conservan todos los registros de la tabla right_table, se devuelven valores nulos para el campo left_value
 en los registros donde no encuentra coincidencia
  
  ![enter image description here](https://github.com/Yulivel06/Conceptos-SQL/blob/master/UNIONES_Y_OPERACIONES_CONJUNTOS/right%20join.png)
